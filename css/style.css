@@ -415,7 +415,7 @@ ul {
  */
 
 html {
-  font-family: Nunito Sans; /* 1 */
+  font-family: Nunito Sans, sans; /* 1 */
   line-height: 1.5; /* 2 */
 }
 
@@ -6103,7 +6103,7 @@ video {
 }
 
 .font-sans {
-  font-family: Nunito Sans;
+  font-family: Nunito Sans, sans;
 }
 
 .font-serif {
@@ -30621,7 +30621,7 @@ video {
   }
 
   .sm\:font-sans {
-    font-family: Nunito Sans;
+    font-family: Nunito Sans, sans;
   }
 
   .sm\:font-serif {
@@ -55140,7 +55140,7 @@ video {
   }
 
   .md\:font-sans {
-    font-family: Nunito Sans;
+    font-family: Nunito Sans, sans;
   }
 
   .md\:font-serif {
@@ -79659,7 +79659,7 @@ video {
   }
 
   .lg\:font-sans {
-    font-family: Nunito Sans;
+    font-family: Nunito Sans, sans;
   }
 
   .lg\:font-serif {
@@ -104178,7 +104178,7 @@ video {
   }
 
   .xl\:font-sans {
-    font-family: Nunito Sans;
+    font-family: Nunito Sans, sans;
   }
 
   .xl\:font-serif {

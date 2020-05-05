@@ -9,7 +9,7 @@ module.exports = {
       },
       fontFamily: {
         sans: [
-          'Nunito Sans',
+          'Nunito Sans', 'sans',
         ],
       },
       fontSize: {
