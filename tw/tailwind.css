@@ -1,0 +1,85 @@
+@tailwind base;
+
+@font-face {
+    font-family: Nunito Sans;
+    font-weight: 400;
+    src: url(/fonts/nunito-sans/NunitoSans-Regular.ttf) format("TrueType");
+}
+@font-face {
+    font-family: Nunito Sans;
+    font-weight: 600;
+    src: url(/fonts/nunito-sans/NunitoSans-SemiBold.ttf) format("TrueType");
+}
+@font-face {
+    font-family: Nunito Sans;
+    font-weight: 700;
+    src: url(/fonts/nunito-sans/NunitoSans-Bold.ttf) format("TrueType");
+}
+@font-face {
+    font-family: Nunito Sans;
+    font-weight: 800;
+    src: url(/fonts/nunito-sans/NunitoSans-ExtraBold.ttf) format("TrueType");
+}
+
+.line-bottom-light::after {
+  content: '';
+  display: block;
+  width: 80%;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  margin-left: -40%;
+  height: 1px;
+  background: radial-gradient(ellipse at center,#d4dae4,rgba(255,255,255,0) 80%);
+}
+
+.feature-icons {
+  font-size: 1.65rem;
+}
+
+.box-icons {
+  font-size: 2.5rem;
+}
+
+.headroom {
+  will-change: transform;
+  transition: transform 200ms linear;
+}
+.headroom--pinned {
+  transform: translateY(0%);
+}
+.headroom--unpinned {
+  transform: translateY(-100%);
+}
+
+.divider-top {
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    background-image: url(../img/wave.svg);
+    background-repeat: repeat-x;
+    background-position: bottom;
+    background-size: 1450px 160px;
+    height: 0;
+    padding: 0;
+    padding-bottom: 140px;
+    bottom: 120px;
+    transform: rotate(180deg);
+}
+
+.divider-bottom {
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    background-image: url(../img/wave-soft.svg);
+    background-repeat: repeat-x;
+    background-position: bottom;
+    background-size: 1450px 160px;
+    height: 0;
+    padding: 0;
+    padding-bottom: 115px;
+}
+
+
+@tailwind components;
+@tailwind utilities;

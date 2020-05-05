@@ -1,0 +1,25 @@
+{
+  "name": "rocket",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "postcss tw/tailwind.css -o css/style.css",
+    "watch": "postcss tw/tailwind.css -o css/style.css --watch",
+    "server": "live-server --browser='firefox developer edition'",
+    "start": "npm-run-all --parallel server watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "autoprefixer": "^9.7.6",
+    "postcss-cli": "^7.1.0",
+    "tailwindcss": "^1.3.5"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^5.13.0",
+    "headroom.js": "^0.11.0",
+    "npm-run-all": "^4.1.5"
+  }
+}
